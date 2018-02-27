@@ -1,0 +1,13 @@
+{
+	"Signin" : " Connexion",
+	"Enter your Nickname" : " Introduisez votre pseudo",
+	"Enter"	: " Entrée",
+	"Room" : " salle",
+	"Enter Room Name" : " Introduisez le nom de la salle",
+	"Add" : " Ajouter",
+	"has joined this room." : " a rejoint cette salle.",
+	"has left this room." : " a quitté cette salle.",
+	"Me" : " Moi",
+	"Chat" : " Chat",
+	"Type a message" : " Tapez un message"
+}

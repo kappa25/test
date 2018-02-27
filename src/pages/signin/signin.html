@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>{{ 'Signin' | translate }}</ion-title>
+   <ion-buttons end>
+      <button ion-button icon-only (click)="logout()">
+        <ion-icon name="exit"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <form (ngSubmit)="enterNickname()">
+    <!-- <form> -->
+    <ion-list>
+      <ion-item>
+        <ion-label floating>{{ 'Enter your Nickname' | translate }}</ion-label>
+        <ion-input type="text" [(ngModel)]="data.nickname" name="nickname" required=""></ion-input>
+      </ion-item>
+       <ion-item>
+        <button ion-button full round color="secondary" type="submit" >{{ 'Enter' | translate }}</button>
+ 
+      
+       </ion-item>
+    </ion-list>
+  </form>
+      
+   
+</ion-content>
